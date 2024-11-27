@@ -1,0 +1,34 @@
+import BodyLayout from "./ui/body-layout";
+import Title from "./ui/title";
+
+export default function ThanksMessage() {
+  return (
+    <BodyLayout>
+      <Title title="INVITATION" />
+        <div className="text-center lg:text-lg text-gray-600">
+          <br />
+          <br />
+          <p> 차가운 겨울, 저희 두 사람은 서로의 온기가 되어</p>
+          <p>하얀 세상 속에서 변치 않을 사랑을 맹세합니다.</p>
+          <br />
+          <p>눈부시게 찬란한 날, 두 마음이 하나 되어</p>
+          <p>함께 걸음을 시작하고자 합니다.</p>
+          <br />
+          <p>&apos;우리&apos;라는 이름의 첫 시작,</p>
+          <p>그 아름다운 순간에 소중한 분들을 초대합니다.</p>
+          <br />
+          <br />
+
+          <div className="px-10">
+            <hr />
+          </div>
+
+          <br />
+          <br />
+          <p><span className="text-lg">???</span> · <span className="text-lg">???</span> 의 장남 <span className="text-lg">승진</span></p>
+          <p><span className="text-lg">???</span> · <span className="text-lg">???</span> 의 장녀 <span className="text-lg">유진</span></p>
+          <br />
+        </div>
+    </BodyLayout>
+  );
+}
