@@ -1,11 +1,11 @@
 "use client";
-import { useState, useEffect, SetStateAction } from "react";
+import { useState, useEffect } from "react";
 import BodyLayout from "./ui/body-layout";
 import Title from "./ui/title";
 import Image from "next/image";
 
 export default function Gallery() {
-  let images = []
+  const images = []
   for (let i=1; i<=21; i++) {
     images.push("/wedding_card/gallery/" + i +".jpg")
   }
