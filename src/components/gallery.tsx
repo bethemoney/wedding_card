@@ -3,7 +3,6 @@ import { useState, useEffect, SetStateAction } from "react";
 import BodyLayout from "./ui/body-layout";
 import Title from "./ui/title";
 import Image from "next/image";
-import { List } from "postcss/lib/list";
 
 export default function Gallery() {
   let images = []
