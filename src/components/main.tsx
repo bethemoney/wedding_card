@@ -14,7 +14,7 @@ export default function Main() {
       </div>
       <div className="relative w-full h-3/5 bg-cover bg-center">
         <img
-          src="/wedding/image/main.jpg"
+          src="/wedding_card/image/main.jpg"
           alt="Main"
           className={`w-full h-full object-cover block`}
         />

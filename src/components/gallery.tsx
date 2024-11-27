@@ -1,17 +1,15 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, SetStateAction } from "react";
 import BodyLayout from "./ui/body-layout";
 import Title from "./ui/title";
 import Image from "next/image";
+import { List } from "postcss/lib/list";
 
 export default function Gallery() {
-  const images = [
-    "/wedding_card/gallery/1.jpg",
-    "/wedding_card/gallery/2.jpg",
-    "/wedding_card/gallery/3.jpg",
-    "/wedding_card/gallery/4.jpg",
-    "/wedding_card/gallery/1.jpg",
-  ];
+  let images = []
+  for (let i=1; i<=21; i++) {
+    images.push("/wedding_card/gallery/" + i +".jpg")
+  }
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
