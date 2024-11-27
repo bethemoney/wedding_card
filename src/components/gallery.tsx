@@ -5,8 +5,10 @@ import Title from "./ui/title";
 import Image from "next/image";
 
 export default function Gallery() {
-  const images = []
-  for (let i=1; i<=21; i++) {
+  const images = [
+    "/wedding_card/gallery/1.jpg"
+  ]
+  for (let i=2; i<=21; i++) {
     images.push("/wedding_card/gallery/" + i +".jpg")
   }
 
