@@ -3,10 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import Snowfall from 'react-snowfall';
 
-const snowflake = document.createElement('img')
-snowflake.src = `/wedding/image/snow.png`
 
-const images = [snowflake]
+
 export default function SnowFall() {
   const [isClient, setIsClient] = useState(false);
   const [, setDimensions] = useState({ width: 0, height: 0 });
@@ -36,7 +34,10 @@ export default function SnowFall() {
   if (!isClient) {
     return null;
   }
-
+  const snowflake = document.createElement('img')
+  snowflake.src = `/wedding/image/snow.png`
+  
+  const images = [snowflake]
   return (
     <div className="w-full h-full pointer-events-none">
       <Snowfall

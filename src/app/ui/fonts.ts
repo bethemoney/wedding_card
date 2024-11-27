@@ -21,5 +21,5 @@ export const RIDIBatang = localFont({
 });
 
 export const NanumHim = localFont({ 
-  src: '../fonts/NanumHimNaeRaNeunMarBoDan.ttf',
+  src: '../fonts/NanumHim.ttf',
 })
