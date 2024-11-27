@@ -14,17 +14,17 @@ const maps = [
   {
     name: "카카오맵",
     url: kakaoMapUrl,
-    icon: `/wedding/icon/kakaomap.png`,
+    icon: `/wedding_card/icon/kakaomap.png`,
   },
   {
     name: "네이버지도",
     url: naverMapUrl,
-    icon: `/wedding/icon/navermap.jpeg`,
+    icon: `/wedding_card/icon/navermap.jpeg`,
   },
   {
     name: "티맵",
     url: tMapUrl,
-    icon: `/wedding/icon/tmap.jpeg`,
+    icon: `/wedding_card/icon/tmap.jpeg`,
   },
 ];
 
@@ -54,7 +54,7 @@ export default function Location() {
         </div>
 
         <div className="my-8">
-          <Image src={`/wedding/image/location.jpg`} alt="location" width={800} height={600} className="mx-auto" />      
+          <Image src={`/wedding_card/image/location.jpg`} alt="location" width={800} height={600} className="mx-auto" />      
         </div>
         <div className="p-4">
           <div className="mb-6">

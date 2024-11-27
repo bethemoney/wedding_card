@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
           <br />
           <p>© 디자인,개발</p>
-          <Link className='underline' href="https://github.com/bethemoney/wedding">Github</Link>
+          <Link className='underline' href="https://github.com/bethemoney/wedding_card">Github</Link>
         </div>
       </div>
     </footer>

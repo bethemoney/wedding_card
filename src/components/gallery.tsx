@@ -4,14 +4,13 @@ import BodyLayout from "./ui/body-layout";
 import Title from "./ui/title";
 import Image from "next/image";
 
-
 export default function Gallery() {
   const images = [
-    "/wedding/gallery/1.jpg",
-    "/wedding/gallery/2.jpg",
-    "/wedding/gallery/3.jpg",
-    "/wedding/gallery/4.jpg",
-    "/wedding/gallery/1.jpg",
+    "/wedding_card/gallery/1.jpg",
+    "/wedding_card/gallery/2.jpg",
+    "/wedding_card/gallery/3.jpg",
+    "/wedding_card/gallery/4.jpg",
+    "/wedding_card/gallery/1.jpg",
   ];
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);

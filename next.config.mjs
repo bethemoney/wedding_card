@@ -2,11 +2,11 @@
 const isProduction = true;
 //const productionURL = 'https://bethemoney.github.io';
 const productionURL = 'http://localhost:3000';
-const productionPath = '/wedding'
+const productionPath = '/wedding_card'
 
 const nextConfig = {
   //  output: 'export',
-  basePath: isProduction ? "/wedding" : "",
+  basePath: isProduction ? productionPath : "",
   images: {
     loader: 'imgix',
     path: isProduction ? productionURL : 'http://localhost:3000',
