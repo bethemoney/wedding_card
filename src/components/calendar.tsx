@@ -165,7 +165,7 @@ export default function Calendar() {
                   <td>
                   <div className="w-full h-full">
                       <div className="flex items-center justify-center w-full rounded-full cursor-pointer">
-                        <a role="link" tabIndex={0} className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-700 focus:bg-pink-500 hover:bg-pink-500 text-base w-8 h-8 flex items-center justify-center font-medium text-white bg-pink-500 rounded-full">15</a>
+                        <a role="link" tabIndex={0} className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-700 focus:bg-pink-500 hover:bg-pink-500 text-base w-8 h-8 flex items-center justify-center font-medium text-white bg-pink-500 rounded-full">16</a>
                       </div>
                     </div>
                   </td>
@@ -233,7 +233,7 @@ export default function Calendar() {
                   </td>
                   <td>
                     <div className="px-2 py-2 cursor-pointer flex w-full justify-center">
-                      <p className="text-base text-gray-500 font-medium">1</p>
+                    <p className="text-base text-gray-200 font-medium">1</p>
                     </div>
                   </td>
                 </tr>

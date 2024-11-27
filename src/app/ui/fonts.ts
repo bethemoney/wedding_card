@@ -19,3 +19,7 @@ export const notoSerif = localFont({
 export const RIDIBatang = localFont({
   src: '../fonts/RIDIBatang.otf',
 });
+
+export const NanumHim = localFont({ 
+  src: '../fonts/NanumHimNaeRaNeunMarBoDan.ttf',
+})

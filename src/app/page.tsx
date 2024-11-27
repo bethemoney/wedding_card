@@ -8,7 +8,6 @@ import Main from "@/components/main";
 import Message from "@/components/message";
 import Music from "@/components/ui/music";
 import TopButton from "@/components/ui/top-button";
-import ConfettiUi from "@/components/confetti";
 import SnowFall from "@/components/snowfall";
 
 export default function Home() {

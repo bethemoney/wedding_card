@@ -1,5 +1,9 @@
 "use client";
 
+import { NanumHim } from "@/app/ui/fonts";
+
+
+
 export default function Main() {
 
   return (
@@ -17,17 +21,17 @@ export default function Main() {
       </div>
       <div className="flex flex-col justify-center items-center h-2/5 bg-youjin">
         <br />
-        <div className="flex items-center space-x-4">
+        <div className={"flex items-center space-x-4 " + `${NanumHim.className}`}>
           <div className="flex flex-col items-center space-y-1">
             <span className="text-yellow-600   text-sm">GROOM</span>
-            <span className="text-2xl text-white">승&nbsp;&nbsp;진</span>
+            <span className="text-3xl text-white">승&nbsp;&nbsp;진</span>
           </div>
           <div className="font-light text-pink-200 text-xl mx-8 px-4">
             |
           </div>
           <div className="flex flex-col items-center space-y-1">
             <span className="text-yellow-600 text-sm">BRIDE</span>
-            <span className="text-2xl  text-white">유&nbsp;&nbsp;진</span>
+            <span className="text-3xl  text-white">유&nbsp;&nbsp;진</span>
           </div>
         </div>
         <br />

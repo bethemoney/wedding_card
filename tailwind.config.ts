@@ -7,14 +7,12 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: { 
-      'youjin': '#b9e5f0',
-    },
+    
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-       
+        'youjin': '#b7c9c3',
       },
     },
   },

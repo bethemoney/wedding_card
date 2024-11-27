@@ -4,7 +4,7 @@ import Title from "./ui/title";
 export default function ThanksMessage() {
   return (
     <BodyLayout>
-      <Title title="INVITATION" />
+      <Title title="You are Invited" />
         <div className="text-center lg:text-lg text-gray-600">
           <br />
           <br />

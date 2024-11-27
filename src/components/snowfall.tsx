@@ -1,13 +1,16 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import Confetti from 'react-confetti';
 import Snowfall from 'react-snowfall';
 
+const snowflake = document.createElement('img')
+snowflake.src = `/wedding/image/snow.png`
+
+const images = [snowflake]
 export default function SnowFall() {
   const [isClient, setIsClient] = useState(false);
-  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
-  const [pieces, setPieces] = useState(0);
+  const [, setDimensions] = useState({ width: 0, height: 0 });
+  const [, setPieces] = useState(0);
 
   useEffect(() => {
     setIsClient(true);
@@ -37,15 +40,15 @@ export default function SnowFall() {
   return (
     <div className="w-full h-full pointer-events-none">
       <Snowfall
-       snowflakeCount={100}
+       snowflakeCount={150}
        color="white"
-       speed={[0.5, 1.0]}
-       wind={[-0.5,0.5]}
+       speed={[0.5, 3.0]}
+       wind={[-0.5, 2.0]}
+       images={images}
+       radius={[10,20]}
         style={{
           position: 'absolute',
           zIndex: 999,
-          width: '100vw',
-          height: '100vh',
         }}
       />
     </div>
