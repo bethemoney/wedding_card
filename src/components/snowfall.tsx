@@ -35,7 +35,7 @@ export default function SnowFall() {
     return null;
   }
   const snowflake = document.createElement('img')
-  snowflake.src = `/wedding_card/image/snow.png`
+  snowflake.src = `/wedding_card/image/snow_white.png`
   
   const images = [snowflake]
   return (
