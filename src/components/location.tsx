@@ -58,37 +58,26 @@ export default function Location() {
         </div>
         <div className="p-4">
           <div className="mb-6">
+            <p className="text-gray-600">서울특별시 구로구 새말로 97 신도림테크노마트 8층 웨딩시티</p>
+          </div>
+          <div className="mb-6">
             <h3 className="text-lg mb-2">🚗 주차</h3>
-            <p className="text-gray-600">
-            테크노마트 지하주차장 이용(B3~B7)
-            웨딩시티와 동일한 건물입니다.
-            주차요원의 안내를 받으세요.
-            </p>
-            <p className="text-gray-600 mb-2">
-            서울특별시 구로구 새말로 97 신도림테크노마트 8층 웨딩시티
-            </p>
-            <p className="text-gray-600">
-              - ???????무료정보 기입 접수처 도장 날인시 2시간 무료 ?? 
-            </p>
+            <p className="text-gray-600">테크노마트 지하주차장 이용(B3~B7)</p>
+            <p className="text-gray-600">웨딩시티와 동일한 건물입니다. 주차요원의 안내를 받으세요.</p>
+        
+            <p className="text-gray-600">- ???????무료정보 기입 접수처 도장 날인시 2시간 무료 ??</p>
           </div>
           
           <div className="mb-6">
             <h3 className="text-lg mb-2">🚇 지하철</h3>
-            <p className="text-gray-600">
-            1호선 2호선 신도림역 
-            신도림역 3번출구 테크노마트 지하1층과 직접 연결되어 있습니다.
-            </p>
-            <p className="text-gray-600">
-              더휴웨딩홀 (이케이타워 2층)
-            </p>
+            <p className="text-gray-600">1호선 2호선 신도림역 3번출구</p>
+            <p className="text-gray-600">테크노마트 판매동 지하 1층과 직접 연결되어 있습니다.</p>
           </div>
           
           <div>
             <h3 className="text-lg mb-2">🚌 버스</h3>
-            <p className="text-gray-600 mb-2">
-            신도림역 (17-102)정류장 하차
-            지하철 신도림역 3번출구 쪽
-            </p>
+            <p className="text-gray-600">신도림역 (17-102)정류장 하차</p>
+            <p className="text-gray-600">지하철 신도림역 3번출구 쪽</p>
             <p className="text-gray-600">- 지선 : 5619, 6411, 6511, 6611</p>
             <p className="text-gray-600">- 직행: 5200</p>
             <p className="text-gray-600">- 마을 : 영등포09, 영등포12, 영등포13</p>

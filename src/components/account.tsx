@@ -12,13 +12,13 @@ interface Account {
 
 const bAccounts: Account[] = [
   {
-    bank: "신한은행",
-    number: "110-035-????",
+    bank: "새마을금고",
+    number: "9003-2722-0862-6",
     name: "최영식",
   },
   {
     bank: "NH농협",
-    number: "312-0033-1120-????",
+    number: "??",
     name: "이정미",
   },
   {
