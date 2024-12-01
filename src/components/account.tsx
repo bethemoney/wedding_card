@@ -14,17 +14,17 @@ const bAccounts: Account[] = [
   {
     bank: "신한은행",
     number: "110-035-????",
-    name: "최신랑",
+    name: "최영식",
   },
   {
     bank: "NH농협",
     number: "312-0033-1120-????",
-    name: "최신랑",
+    name: "이정미",
   },
   {
-    bank: "토스뱅크",
+    bank: "카카오뱅크",
     number: "1234-56778-????",
-    name: "최신랑",
+    name: "최승진",
   },
 ];
 
@@ -32,17 +32,17 @@ const mAccounts: Account[] = [
   {
     bank: "신한은행",
     number: "???-433-874676",
-    name: "aaa",
+    name: "최대연",
   },
   {
     bank: "신한은행",
     number: "???-456-78790",
-    name: "111",
+    name: "김윤희",
   },
   {
     bank: "하나은행",
     number: "???-45454-12345",
-    name: "111",
+    name: "최유진",
   },
 ];
 

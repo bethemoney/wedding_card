@@ -25,8 +25,8 @@ export default function ThanksMessage() {
 
           <br />
           <br />
-          <p><span className="text-lg">???</span> · <span className="text-lg">???</span> 의 장남 <span className="text-lg">승진</span></p>
-          <p><span className="text-lg">???</span> · <span className="text-lg">???</span> 의 장녀 <span className="text-lg">유진</span></p>
+          <p><span className="text-lg">최영식</span> · <span className="text-lg">이정미</span> 의 장남 <span className="text-lg">승진</span></p>
+          <p><span className="text-lg">최대연</span> · <span className="text-lg">김윤희</span> 의 장녀 <span className="text-lg">유진</span></p>
           <br />
         </div>
     </BodyLayout>

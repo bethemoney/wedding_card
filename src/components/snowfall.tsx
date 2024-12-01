@@ -41,12 +41,12 @@ export default function SnowFall() {
   return (
     <div className="w-full h-full pointer-events-none">
       <Snowfall
-       snowflakeCount={150}
+       snowflakeCount={25}
        color="white"
-       speed={[0.5, 3.0]}
+       speed={[0.5, 2.5]}
        wind={[-0.5, 2.0]}
        images={images}
-       radius={[10,20]}
+       radius={[10,15]}
         style={{
           position: 'absolute',
           zIndex: 999,

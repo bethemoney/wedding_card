@@ -16,7 +16,7 @@ export default function Main() {
         <img
           src="/wedding_card/image/main.jpg"
           alt="Main"
-          className={`w-full h-full object-cover block`}
+          className={`w-full object-cover block`}
         />
       </div>
       <div className="flex flex-col justify-center items-center h-2/5 bg-youjin">
