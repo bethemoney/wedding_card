@@ -17,31 +17,21 @@ const bAccounts: Account[] = [
     name: "최영식",
   },
   {
-    bank: "NH농협",
-    number: "??",
-    name: "이정미",
-  },
-  {
     bank: "카카오뱅크",
-    number: "1234-56778-????",
+    number: "3333-04-8109931",
     name: "최승진",
   },
 ];
 
 const mAccounts: Account[] = [
   {
-    bank: "신한은행",
-    number: "???-433-874676",
+    bank: "새마을금고",
+    number: "3655-10-0061926",
     name: "최대연",
   },
   {
     bank: "신한은행",
-    number: "???-456-78790",
-    name: "김윤희",
-  },
-  {
-    bank: "하나은행",
-    number: "???-45454-12345",
+    number: "110-357-612211",
     name: "최유진",
   },
 ];
