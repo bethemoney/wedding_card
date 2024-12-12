@@ -8,10 +8,6 @@ export default function Main() {
 
   return (
     <div className="flex flex-col h-screen">
-      
-      <div className="relative w-full justify-center h-1/6 bg-youjin">
-         <div>Wedding Day</div>
-      </div>
       <div className="relative w-full h-3/5 bg-cover bg-center">
         <img
           src="/wedding_card/image/main.jpg"
