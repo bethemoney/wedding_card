@@ -36,20 +36,22 @@ export default function SnowFall() {
   }
   const snowflake = document.createElement('img')
   snowflake.src = `/wedding_card/image/snow_white.png`
-  
+
   const images = [snowflake]
   return (
-    <div className="w-full h-full pointer-events-none">
+    <div className="h-full pointer-events-none">
       <Snowfall
-       snowflakeCount={25}
-       color="white"
-       speed={[0.5, 2.5]}
-       wind={[-0.5, 2.0]}
-       images={images}
-       radius={[10,15]}
+        snowflakeCount={25}
+        color="white"
+        speed={[0.5, 2.5]}
+        wind={[-0.5, 2.0]}
+        images={images}
+        radius={[10, 15]}
         style={{
-          position: 'absolute',
           zIndex: 999,
+          position: 'fixed',
+          width: '100vw',
+          height: '100vh',
         }}
       />
     </div>
