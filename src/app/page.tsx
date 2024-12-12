@@ -9,6 +9,7 @@ import Message from "@/components/message";
 import Music from "@/components/ui/music";
 import TopButton from "@/components/ui/top-button";
 import SnowFall from "@/components/snowfall";
+import MiddleImage from "@/components/middle-image";
 
 export default function Home() {
  
@@ -19,16 +20,17 @@ export default function Home() {
       <Main />
       <Divider />
       <Message />
+      <Divider/> 
+      <MiddleImage />
       <Divider />
       <Calendar />
       <Divider />
-      <Location />
-      <Divider />
       <Gallery />
+      <Divider />
+      <Location />
       <Divider />
       <Account />
       <Divider />
-
       <Footer />
       <Music />
       <TopButton />
