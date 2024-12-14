@@ -23,3 +23,11 @@ export const RIDIBatang = localFont({
 export const NanumHim = localFont({ 
   src: '../fonts/NanumHim.ttf',
 })
+
+export const NanumFlower = localFont({ 
+  src: '../fonts/NanumFlower.ttf',
+})
+
+export const NanumGaram = localFont({ 
+  src: '../fonts/NanumGaram.ttf',
+})
