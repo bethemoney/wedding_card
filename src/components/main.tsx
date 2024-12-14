@@ -15,7 +15,7 @@ export default function Main() {
           className={`w-full h-full object-cover block`}
         />
       </div>
-      <div className={"flex flex-col justify-center items-center h-full bg-main " + NanumGaram.className}>
+      <div className={"flex flex-col justify-center items-center h-full bg-sub " + NanumGaram.className}>
         <br />
         <div className={"flex items-center space-x-4"}>
           <div className="flex flex-col items-center space-y-1">
