@@ -1,10 +1,12 @@
+import { NanumGaram } from "@/app/ui/fonts";
+
 export default function Calendar() {
   return (
-    <div className="flex items-center justify-center py-8 px-4 bg-gray-100">
+    <div className={"flex items-center justify-center py-8 px-4 bg-sub " + NanumGaram.className}>
       <div className="max-w-md w-full">
         <div className="md:p-8 p-5 bg-white rounded-t-lg ">
           <div className="px-4 flex items-center justify-between">
-            <span tabIndex={0} className="focus:outline-none text-xl text-gray-800">2월</span>
+            <span tabIndex={0} className="focus:outline-none text-2xl font-semibold text-gray-800">2월</span>
             <div className="flex items-center">
             </div>
           </div>
@@ -165,7 +167,7 @@ export default function Calendar() {
                   <td>
                   <div className="w-full h-full">
                       <div className="flex items-center justify-center w-full rounded-full cursor-pointer">
-                        <a role="link" tabIndex={0} className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-700 focus:bg-pink-500 hover:bg-pink-500 text-base w-8 h-8 flex items-center justify-center font-medium text-white bg-pink-500 rounded-full">16</a>
+                        <a role="link" tabIndex={0} className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-700 focus:bg-pink-500 hover:bg-pink-500 text-base w-8 h-8 flex items-center justify-center font-medium text-white bg-yellow-500 rounded-full">16</a>
                       </div>
                     </div>
                   </td>
@@ -245,8 +247,8 @@ export default function Calendar() {
           <div className="px-4">
             <hr />
             <div className="pb-4 pt-4">
-              <p className="text-s font-light leading-3 text-gray-500 pb-2">12:10 PM</p>
-              <a tabIndex={0} className="focus:outline-none text-lg font-medium leading-5 text-gray-800 mt-2">웨딩시티 8층 스타티스홀</a>
+              <p className="text-s font-light leading-3  text-2xl text-gray-500 pb-2">12:10 PM</p>
+              <a tabIndex={0} className="focus:outline-none text-xl font-semibold leading-5 text-gray-800 mt-2">웨딩시티 8층 스타티스홀</a>
             </div>
             <hr />
           </div>

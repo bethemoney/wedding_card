@@ -1,6 +1,6 @@
 # 내손으로 직접 만든 청첩장
 
-Url: [https://bethemoney.github.io/wedding_card/](https://bethemoney.github.io/wedding_card/)
+Url: [https://bethemoney.github.io/](https://bethemoney.github.io/)
 
 ## Run
 

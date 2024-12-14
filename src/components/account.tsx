@@ -41,9 +41,9 @@ export default function Account() {
     <BodyLayout>
       <div className="max-w-2xl mx-auto px-4">
         <Title title="ACCOUNT" />
-            <p className="text-gray-600 text-center text-sm mt-8 mb-6">
-              축하의 마음을 담아 축의금을 전달해 보세요.
-            </p>
+        <p className={"text-gray-600 text-center text-sm mt-8 mb-6"}>
+          축하의 마음을 담아 축의금을 전달해 보세요.
+        </p>
         <Block accounts={bAccounts} who="신랑" />
         <Block accounts={mAccounts} who="신부" />
       </div>
@@ -91,7 +91,7 @@ function Block({ accounts, who }: { accounts: Account[]; who: string }) {
                 <span className="text-gray-800 font-semibold">{account.name}</span>
               </div>
               <button
-                className="bg-pink-600 text-white px-3 py-1 rounded hover:bg-pink-700"
+                className="bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-400"
                 onClick={() => onClickAccount(account)}
               >
                 복사

@@ -8,7 +8,7 @@ export default function Gallery() {
   const images = [
     "/wedding_card/gallery/1.jpg"
   ]
-  for (let i=2; i<=18; i++) {
+  for (let i=2; i<=15; i++) {
     images.push("/wedding_card/gallery/" + i +".jpg")
   }
 
