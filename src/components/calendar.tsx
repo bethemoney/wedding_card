@@ -1,8 +1,8 @@
-import { NanumGaram } from "@/app/ui/fonts";
+import { NanumHim } from "@/app/ui/fonts";
 
 export default function Calendar() {
   return (
-    <div className={"flex items-center justify-center py-8 px-4 bg-sub " + NanumGaram.className}>
+    <div className={"flex items-center justify-center py-8 px-4 bg-sub " + NanumHim.className}>
       <div className="max-w-md w-full">
         <div className="md:p-8 p-5 bg-white rounded-t-lg ">
           <div className="px-4 flex items-center justify-between">
