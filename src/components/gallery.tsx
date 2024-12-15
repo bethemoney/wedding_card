@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import BodyLayout from "./ui/body-layout";
 import Title from "./ui/title";
-import Image from "next/image";
 
 export default function Gallery() {
   const images = [
@@ -49,7 +48,7 @@ export default function Gallery() {
               className="relative w-full overflow-hidden rounded-md bg-white aspect-w-1 aspect-h-1 group-hover:opacity-75"
               onClick={() => setSelectedImage(selectedImage === image ? null : image)}
             >
-              <Image
+              <img
                 width={1024}
                 height={1024}
                 alt={image}

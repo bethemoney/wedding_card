@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import BodyLayout from "./ui/body-layout";
-import Image from "next/image";
 import Title from "./ui/title";
 
 const kakaoMapUrl = "https://place.map.kakao.com/326511102";
@@ -41,7 +40,7 @@ export default function Location() {
               key={map.name}
               className="text-gray-600 flex flex-col items-center p-2 transition-transform transform hover:scale-105 hover:text-gray-800"
             >
-              <Image
+              <img
                 src={map.icon}
                 alt={`${map.name} icon`}
                 width={100}
@@ -54,7 +53,7 @@ export default function Location() {
         </div>
 
         <div className="my-8">
-          <Image src={`/wedding_card/image/location.jpg`} alt="location" width={800} height={600} className="mx-auto" />
+          <img src={`/wedding_card/image/location.jpg`} alt="location" width={800} height={600} className="mx-auto" />
         </div>
         <div className="p-4">
           <div className="text-lg mb-6">

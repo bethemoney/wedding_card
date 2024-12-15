@@ -2,8 +2,8 @@ import { NanumHim } from "@/app/ui/fonts";
 
 export default function Calendar() {
   return (
-    <div className={"flex items-center justify-center py-8 px-4 bg-sub " + NanumHim.className}>
-      <div className="max-w-md w-full">
+    <div className={"flex items-center justify-center py-8 w-full bg-sub " + NanumHim.className}>
+      <div className="w-full px-4">
         <div className="md:p-8 p-5 bg-white rounded-t-lg ">
           <div className="px-4 flex items-center justify-between">
             <span tabIndex={0} className="focus:outline-none text-2xl font-semibold text-gray-800">2월</span>
