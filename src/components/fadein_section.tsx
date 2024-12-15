@@ -18,7 +18,7 @@ export default function FadeInSection(props) {
 
   return (
     // @ts-expect-error: type no define
-    <div ref={domRef} className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}>
+    <div ref={domRef} className={`bg-sub w-full fade-in-section ${isVisible ? 'is-visible' : ''}`}>
       {props.children}
     </div>
   )

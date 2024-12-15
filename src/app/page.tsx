@@ -19,48 +19,19 @@ export default function Home() {
     <div className="max-w-2xl mx-auto">
 
       <SnowFall />
-     
       <Main />
-
-      
       <Divider />
-
-
-      <FadeInSection key="f2" >
-        <Message />
-        <Divider />
-      </FadeInSection>
-
-     
-
-      <FadeInSection key="f3" >
-        <MiddleImage />
-      </FadeInSection>
-
+      <Message />
       <Divider />
-
-      <FadeInSection key="f4" >
-        <Calendar />
-      </FadeInSection>
-
+      <MiddleImage />
       <Divider />
-
-      <FadeInSection key="f5" >
-        <Gallery />
-      </FadeInSection>
-
+      <Calendar />
       <Divider />
-
-      <FadeInSection key="f6" >
-        <Location />
-      </FadeInSection>
-
+      <Gallery />
       <Divider />
-
-      <FadeInSection key="f7" >
-        <Account />
-      </FadeInSection>
-
+      <Location />
+      <Divider />
+      <Account />
       <Divider />
       <Footer />
       <Music />
