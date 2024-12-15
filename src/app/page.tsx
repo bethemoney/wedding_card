@@ -11,7 +11,6 @@ import TopButton from "@/components/ui/top-button";
 import SnowFall from "@/components/snowfall";
 import MiddleImage from "@/components/middle-image";
 import React from "react";
-import FadeInSection from "@/components/fadein_section";
 
 export default function Home() {
 
