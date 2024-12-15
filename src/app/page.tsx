@@ -13,9 +13,8 @@ import MiddleImage from "@/components/middle-image";
 
 export default function Home() {
  
-
   return (
-    <div>
+    <div className="max-w-2xl mx-auto">
       <SnowFall />
       <Main />
       <Divider />

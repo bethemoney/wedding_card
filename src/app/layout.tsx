@@ -30,7 +30,7 @@ export default function RootLayout({
         <meta property="og:description" content="2월 16일 오후 12시 10분" />
         {/* <meta property="og:image" content="??" /> */}
       </head>
-      <body className={`${RIDIBatang.className}`}>
+      <body className={"bg-back justify-center " + RIDIBatang.className}>
         {children}
       </body>
     </html>

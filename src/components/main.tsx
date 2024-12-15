@@ -7,15 +7,16 @@ import { NanumGaram, NanumHim } from "@/app/ui/fonts";
 export default function Main() {
 
   return (
-    <div className="flex flex-col h-screen">
-      <div className="relative w-full bg-cover bg-center">
+    <div className="flex flex-col bg-sub" style={{'paddingBottom': '2rem'}}>
+      <div className="relative w-full bg-cover bg-sub">
         <img
           src="/wedding_card/image/main.jpg"
           alt="Main"
           className={`w-full h-full object-cover block`}
         />
       </div>
-      <div className={"flex flex-col justify-center items-center h-full bg-sub " + NanumGaram.className}>
+      <div className={"flex flex-col justify-center items-center h-full bg-sub " + NanumGaram.className}
+      >
         <br />
         <div className={"flex items-center space-x-4"}>
           <div className="flex flex-col items-center space-y-1">
@@ -31,8 +32,9 @@ export default function Main() {
           </div>
         </div>
         <br />
-        <p className={"text-2xl text-gray-600 " + NanumHim.className }>2025년 2월 16일 일요일 오후 12시 10분</p>
-        <p className={"text-2xl text-gray-600 " + NanumHim.className }>웨딩시티</p>
+        <p className={"text-2xl text-gray-600 " + NanumHim.className}>2025년 2월 16일 일요일 오후 12시 10분</p>
+        <p className={"text-2xl text-gray-600 " + NanumHim.className}>웨딩시티</p>
+        <p />
       </div>
     </div>
   );

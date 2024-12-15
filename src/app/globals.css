@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scrollbar-color: #D4AA70 #e4e4e4;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

@@ -14,6 +14,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         'main': '#b7c9c3',
         'sub': '#dce8e4',
+        'back': '#313131',
       },
     },
   },
