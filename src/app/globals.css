@@ -8,7 +8,7 @@
 .fade-in-section {
   opacity: 0;
  
-  /*transform: translateY(20vh);*/
+  transform: translateY(3vh);
   visibility: hidden;
   transition: opacity 3s ease-out, transform 3s ease-out;
 }
@@ -19,27 +19,3 @@
   visibility: visible;
   display: flex; 
 }
-
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */
