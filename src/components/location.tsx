@@ -7,7 +7,7 @@ import Title from "./ui/title";
 const kakaoMapUrl = "https://place.map.kakao.com/326511102";
 const naverMapUrl = "https://naver.me/5pNERn5Z";
 // const tMapUrl = "https://tmap.life/8a3704f7";
-const tMapUrl = "https://tmap.life/e1e410a6";
+const tMapUrl = "https://www.tmap.co.kr/tmap2/mobile/route.jsp?name=%EC%9B%A8%EB%94%A9%EC%8B%9C%ED%8B%B0%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%A0%90&lon=126.890825008116&lat=37.5073302155707&goalname=%EC%9B%A8%EB%94%A9%EC%8B%9C%ED%8B%B0%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%A0%90&goaladdr=%EC%84%9C%EC%9A%B8%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%EC%83%88%EB%A7%90%EB%A1%9C%2097&goalid=&goalflag=16&key=ACDF74F09C347613&referrer=https%3A%2F%2Fpoi.tmap.co.kr";
 
 const maps = [
   {
